@@ -15,8 +15,11 @@ body {
 }
 
 .linksPrincipales li {
-    text-decoration: none;
+    text-decoration: underline none;
     list-style-type: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .linksPrincipales a {
