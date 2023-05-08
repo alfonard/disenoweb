@@ -1,0 +1,163 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 30;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #f60;
+	text-decoration: none;
+}
+
+main {
+	margin: 135px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    line-height: 58px;
+    font-weight: 900;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.contenidoPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contenidoImg{
+    display: flex;
+    
+}
+
+.container_laboral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.entered-lazyloaded {
+    
+    width: 95%;
+    height: 100%;
+    margin-right: 0px; 
+}
+
+.contenidoInformacion {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contenidoInformacion h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #00233b;
+    
+}
+h3, .h3 {
+    
+
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 900;
+    text-align: center;
+   
+}
+.contenidoInformacion button {
+    min-width: 276px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 18px 32px;
+    background-color: #f60;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0 3px 9px rgba(0,0,0,.2);
+    display: inline-block;
+    border-radius: 35px;
+    letter-spacing: 1px;
+}
+.programas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 40px;
+}
+
+.programa {
+    background-color: #f8f7f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.Matrículas_Abiertas{
+    background-color: #f8f7f5;
+    text-align: center;
+}
+
+#tit_matriculas{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 900;
+}
+
+#par_matricula{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #00233b;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#experto{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:left ;
+}
+
+
